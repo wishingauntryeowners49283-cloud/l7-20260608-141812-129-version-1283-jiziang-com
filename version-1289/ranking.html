@@ -1,0 +1,1308 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>热门排行榜 - 免费欧美在线视频</title>
+  <meta name="description" content="热门欧美视频排行榜，高清欧美电影在线观看，最新热门与经典老片推荐。">
+  <meta name="keywords" content="欧美视频,免费视频,在线观看,高清视频,欧美电影,欧美电视剧,免费影视,经典老片,最新热门,排行榜,热门影视">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-gray-50">
+<header class="bg-gradient-to-r from-slate-50 to-gray-50 shadow-sm sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a class="flex items-center gap-2 group" href="./index.html">
+        <span class="w-10 h-10 bg-gradient-to-br from-red-600 to-rose-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 text-white text-xl">▶</span>
+        <span>
+          <span class="block text-xl font-bold text-gray-800 group-hover:text-red-700 transition-colors">欧美影视</span>
+          <span class="text-xs text-gray-500 hidden sm:block">免费高清在线观看</span>
+        </span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6">
+        <a class="text-gray-700 hover:text-red-700 transition-colors font-medium" href="./index.html">首页</a>
+        <a class="text-gray-700 hover:text-red-700 transition-colors font-medium" href="./categories.html">分类</a>
+        <a class="text-gray-700 hover:text-red-700 transition-colors font-medium" href="./category-oumei-movie.html">欧美电影</a><a class="text-gray-700 hover:text-red-700 transition-colors font-medium" href="./category-oumei-tv.html">欧美电视剧</a><a class="text-gray-700 hover:text-red-700 transition-colors font-medium" href="./category-latest-hot.html">最新热门</a><a class="text-gray-700 hover:text-red-700 transition-colors font-medium" href="./category-classic.html">经典老片</a>
+        <a class="text-gray-700 hover:text-red-700 transition-colors font-medium" href="./ranking.html">排行榜</a>
+      </nav>
+      <div class="flex items-center gap-4">
+        <form class="hidden sm:flex items-center" action="./search.html" method="get">
+          <div class="relative">
+            <input class="w-48 lg:w-64 px-4 py-2 pr-10 rounded-full border border-gray-300 focus:outline-none focus:border-red-500 transition-colors" type="search" name="q" placeholder="搜索影视..." autocomplete="off">
+            <button class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-red-600 transition-colors" type="submit">⌕</button>
+          </div>
+        </form>
+        <button class="md:hidden text-gray-700 hover:text-red-700 transition-colors" type="button" data-menu-button aria-label="打开导航">☰</button>
+      </div>
+    </div>
+    <div class="md:hidden py-4 space-y-3 border-t border-gray-200 is-hidden" data-menu-panel>
+      <form class="sm:hidden" action="./search.html" method="get">
+        <div class="relative">
+          <input class="w-full px-4 py-2 pr-10 rounded-full border border-gray-300 focus:outline-none focus:border-red-500" type="search" name="q" placeholder="搜索影视..." autocomplete="off">
+          <button class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-red-600" type="submit">⌕</button>
+        </div>
+      </form>
+      <a class="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-700 rounded-lg transition-colors" href="./index.html">首页</a>
+      <a class="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-700 rounded-lg transition-colors" href="./categories.html">分类</a>
+      <a class="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-700 rounded-lg transition-colors" href="./category-oumei-movie.html">欧美电影</a><a class="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-700 rounded-lg transition-colors" href="./category-oumei-tv.html">欧美电视剧</a><a class="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-700 rounded-lg transition-colors" href="./category-latest-hot.html">最新热门</a><a class="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-700 rounded-lg transition-colors" href="./category-classic.html">经典老片</a>
+      <a class="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-700 rounded-lg transition-colors" href="./ranking.html">排行榜</a>
+    </div>
+  </div>
+</header>
+<main class="flex-1">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+    <h1 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">热门排行榜</h1>
+    <p class="text-gray-600 leading-relaxed max-w-3xl">根据热度、评分和内容表现精选热门影视，方便快速找到值得观看的高清欧美视频内容。</p>
+  </div>
+  <form class="filter-panel p-6 mb-8" data-filter-form data-filter-scope="#ranking-list">
+    <input class="w-full px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:border-red-500 transition-colors" type="search" placeholder="搜索榜单影片..." data-filter-input autocomplete="off">
+  </form>
+  <section id="ranking-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="乡里人家" data-tags="湘西 扶贫 人情 土地 变迁 剧集" data-category="经典老片" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0773.html">
+    <span class="rank-number flex-shrink-0">1</span>
+    <img src="./23.jpg" alt="乡里人家" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">乡里人家</strong>
+      <span class="block text-sm text-gray-500 mt-2">经典老片 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">湘西深山里，最后一个不通公路的寨子，因为一条路裂成了两半。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="白鹭" data-tags="文艺片 女性 乡村 电影" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1379.html">
+    <span class="rank-number flex-shrink-0">2</span>
+    <img src="./29.jpg" alt="白鹭" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">白鹭</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一位厌倦都市喧嚣的女设计师回到乡下祖宅，在照顾患阿尔茨海默症的祖母时，发现了一段尘封的战争往事。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="罗马帝国艳情史2" data-tags="罗马帝国 大尺度 历史改编 权力游戏 续作 电影" data-category="动作喜剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0765.html">
+    <span class="rank-number flex-shrink-0">3</span>
+    <img src="./15.jpg" alt="罗马帝国艳情史2" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">罗马帝国艳情史2</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">聚焦罗马帝国荒淫暴君的一生，第二部讲述他在火山灰掩埋庞贝前夕的终极狂欢与背叛。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="谎话连篇 浪花梦之阵" data-tags="诈骗师 海边 双男主 搞笑 逆袭 电影" data-category="动作喜剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0971.html">
+    <span class="rank-number flex-shrink-0">4</span>
+    <img src="./71.jpg" alt="谎话连篇 浪花梦之阵" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">谎话连篇 浪花梦之阵</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一对落魄的骗子父子，决定对一座孤岛上的富豪进行连环诈骗，却没想到岛上全是同行。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="基缘巧合" data-tags="同志 相亲 乌龙 家族 电影" data-category="欧美电影" data-year="2021">
+  <a class="flex gap-4 p-4" href="./movies/movie-0997.html">
+    <span class="rank-number flex-shrink-0">5</span>
+    <img src="./97.jpg" alt="基缘巧合" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">基缘巧合</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 2021 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">两个被迫去相亲的男同性恋假装情侣应付父母，却在一次又一次的“出柜练习”中假戏真做。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="别敲两次门" data-tags="都市传说 声控诅咒 童年创伤 电影" data-category="欧美电视剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0302.html">
+    <span class="rank-number flex-shrink-0">6</span>
+    <img src="./2.jpg" alt="别敲两次门" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">别敲两次门</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">她小时候敲了两次孤儿院的门，现在，门开始自己敲她了。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="兄弟营" data-tags="二战 兄弟情 伞兵 真实改编 群像 剧集" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1496.html">
+    <span class="rank-number flex-shrink-0">7</span>
+    <img src="./146.jpg" alt="兄弟营" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">兄弟营</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">二战中，一支由各色问题士兵组成的空降连队，在诺曼底登陆前夜才完成集结。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="人狼游戏2：野兽阵营" data-tags="生存游戏 狼人杀 人性 密室 电影" data-category="科幻奇幻" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0187.html">
+    <span class="rank-number flex-shrink-0">8</span>
+    <img src="./37.jpg" alt="人狼游戏2：野兽阵营" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">人狼游戏2：野兽阵营</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">少女们被关进废弃学校玩真人版狼人杀，但这一次，狼人获胜的条件是“杀光所有人，包括村民”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="临时工" data-tags="打工人 逆袭 荒诞 暴力美学 爽 电影" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1104.html">
+    <span class="rank-number flex-shrink-0">9</span>
+    <img src="./54.jpg" alt="临时工" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">临时工</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">工厂临时工被卷入黑帮交易，他用车间里的螺丝刀和扳手，打出了一个“临时工帝国”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="彩云深处" data-tags="留守儿童 乡村教师 非遗传承 文艺催泪 电影" data-category="爱情剧情" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0409.html">
+    <span class="rank-number flex-shrink-0">10</span>
+    <img src="./109.jpg" alt="彩云深处" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">彩云深处</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">云南深山，一个不会说汉语的瑶族女孩通过古老织锦图案，与支教老师交换了秘密与未来。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="死亡礼物" data-tags="预知死亡 快递员 连环杀手 时间循环 因果报应 电影" data-category="最新热门" data-year="2018">
+  <a class="flex gap-4 p-4" href="./movies/movie-0213.html">
+    <span class="rank-number flex-shrink-0">11</span>
+    <img src="./63.jpg" alt="死亡礼物" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">死亡礼物</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2018 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">快递员景秀每天都会收到一份寄给自己的包裹，里面是第二天死者的遗照，而第三天，照片上的人就会变成自己。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="你好，爱，再次" data-tags="初恋重逢 遗憾 治愈 乐队 冬季 电影" data-category="爱情剧情" data-year="2019">
+  <a class="flex gap-4 p-4" href="./movies/movie-1488.html">
+    <span class="rank-number flex-shrink-0">12</span>
+    <img src="./138.jpg" alt="你好，爱，再次" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">你好，爱，再次</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2019 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">分手十年的校园乐队主唱与吉他手，因一场公益演唱会再次站在了同一个麦克风前。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="亲爱的杀手" data-tags="杀手 温情 救赎 电影" data-category="最新热门" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1898.html">
+    <span class="rank-number flex-shrink-0">13</span>
+    <img src="./98.jpg" alt="亲爱的杀手" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">亲爱的杀手</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">冷血杀手接到任务刺杀一名女子，却发现她正是自己失散多年的亲生女儿。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="霸王大系龙骑士" data-tags="机甲 龙 骑士 动画" data-category="经典老片" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0508.html">
+    <span class="rank-number flex-shrink-0">14</span>
+    <img src="./58.jpg" alt="霸王大系龙骑士" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">霸王大系龙骑士</strong>
+      <span class="block text-sm text-gray-500 mt-2">经典老片 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">废柴高中生穿越到龙与骑士的世界，却发现最强的武器不是剑，而是他手机里那款过时的养殖类手游。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="气球漫游记" data-tags="治愈 童年 遗愿清单 奇幻 电影" data-category="欧美电视剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1702.html">
+    <span class="rank-number flex-shrink-0">15</span>
+    <img src="./52.jpg" alt="气球漫游记" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">气球漫游记</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">爷爷去世后，内向的男孩带着爷爷“遗愿清单”的气球，踏上了一场横跨中国的奇幻骑行之旅。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="沉默" data-tags="聋哑家庭 童年秘密 旧案重翻 电影" data-category="悬疑惊悚" data-year="2026">
+  <a class="flex gap-4 p-4" href="./movies/movie-0035.html">
+    <span class="rank-number flex-shrink-0">16</span>
+    <img src="./35.jpg" alt="沉默" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">沉默</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2026 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">聋哑人家庭唯一的听人女儿坠楼身亡，全家人却集体选择了沉默。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="深海巨灵大海龟" data-tags="特摄 环保 巨型生物 亲情 催泪 电影" data-category="悬疑惊悚" data-year="2026">
+  <a class="flex gap-4 p-4" href="./movies/movie-0312.html">
+    <span class="rank-number flex-shrink-0">17</span>
+    <img src="./12.jpg" alt="深海巨灵大海龟" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">深海巨灵大海龟</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2026 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一只沉睡万年的深海巨龟因核废水污染而暴走，它的目标不是城市，而是它被污染了的产卵地。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="坏记忆橡皮擦" data-tags="记忆删除 反乌托邦 虐恋 伦理困境 电影" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0811.html">
+    <span class="rank-number flex-shrink-0">18</span>
+    <img src="./61.jpg" alt="坏记忆橡皮擦" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">坏记忆橡皮擦</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一款能定向删除痛苦记忆的医疗笔，让一对分手三年的恋人彻底忘了为何不爱，却重新爱上了彼此。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="篮球旋风" data-tags="篮球 少年成长 热血竞技 友情 动画剧集" data-category="动作喜剧" data-year="2020">
+  <a class="flex gap-4 p-4" href="./movies/movie-1809.html">
+    <span class="rank-number flex-shrink-0">19</span>
+    <img src="./9.jpg" alt="篮球旋风" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">篮球旋风</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2020 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">街头篮球少年进入体制内青训队，他用花哨的球风对抗枯燥的系统训练，掀起一场关于篮球信仰的旋风。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="绝对之爱" data-tags="哲学家 病痛 临终 灵魂伴侣 电影" data-category="欧美电视剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1613.html">
+    <span class="rank-number flex-shrink-0">20</span>
+    <img src="./113.jpg" alt="绝对之爱" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">绝对之爱</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一位罹患渐冻症的女哲学家，决定在彻底失去语言能力之前，最后一次向她的丈夫证明“什么是绝对的爱”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="司机奇艳录" data-tags="出租车司机 奇遇 都市男女 风月 电影" data-category="欧美电视剧" data-year="1995">
+  <a class="flex gap-4 p-4" href="./movies/movie-0918.html">
+    <span class="rank-number flex-shrink-0">21</span>
+    <img src="./18.jpg" alt="司机奇艳录" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">司机奇艳录</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 1995 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">午夜出租车司机阿成，每晚都会载到不同的寂寞女人，每一段路程都是一个离奇的情欲故事。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="秋霞" data-tags="乡土 亲情 女性成长 时代变迁 剧集" data-category="欧美电视剧" data-year="2019">
+  <a class="flex gap-4 p-4" href="./movies/movie-0847.html">
+    <span class="rank-number flex-shrink-0">22</span>
+    <img src="./97.jpg" alt="秋霞" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">秋霞</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2019 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个叫秋霞的乡下女人，用一生力气只为在城市里拥有一个写着自家门牌的信箱。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="墨西哥村庄" data-tags="小镇 全员恶人 外来者 黑色幽默 电影" data-category="科幻奇幻" data-year="2026">
+  <a class="flex gap-4 p-4" href="./movies/movie-1926.html">
+    <span class="rank-number flex-shrink-0">23</span>
+    <img src="./126.jpg" alt="墨西哥村庄" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">墨西哥村庄</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2026 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个美国游客误入与世隔绝的墨西哥村庄，却发现这里每年都要献祭一个“最诚实的人”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="德云社成立二十五周年庆典" data-tags="德云社 相声 庆典 郭德纲 于谦 综艺 / 现场" data-category="欧美电视剧" data-year="2021">
+  <a class="flex gap-4 p-4" href="./movies/movie-0421.html">
+    <span class="rank-number flex-shrink-0">24</span>
+    <img src="./121.jpg" alt="德云社成立二十五周年庆典" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">德云社成立二十五周年庆典</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2021 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">德云社二十五周年庆典专场，郭德纲于谦攒底，岳云鹏孙越助演，全场笑声不断泪点暗藏。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="船舰诞生记" data-tags="造船 工业 工匠精神 历史 电影" data-category="动作喜剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1142.html">
+    <span class="rank-number flex-shrink-0">25</span>
+    <img src="./92.jpg" alt="船舰诞生记" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">船舰诞生记</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">复原一艘18世纪的皇家战舰，一群现代工匠和一位历史学家，用三年时间赌上全部名誉。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="毒海鸳鸯" data-tags="毒品世界 鸳鸯大盗 黑帮火拼 港产片黄金年代 电影" data-category="最新热门" data-year="1995">
+  <a class="flex gap-4 p-4" href="./movies/movie-1641.html">
+    <span class="rank-number flex-shrink-0">26</span>
+    <img src="./141.jpg" alt="毒海鸳鸯" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">毒海鸳鸯</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 1995 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一对在戒毒所认识的男女决定干最后一票买卖远走高飞，却不知道自己吞下的那颗“毒蛋”里藏着新病毒的解药。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="别碰我的梦" data-tags="潜意识 盗梦 伦理 高概念 电影" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0358.html">
+    <span class="rank-number flex-shrink-0">27</span>
+    <img src="./58.jpg" alt="别碰我的梦" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">别碰我的梦</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一种能入侵他人梦境的技术问世，但使用者发现，越是触碰别人的梦，现实中的自己就越像是一个“复制品”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="几近天堂" data-tags="记忆移植 乌托邦 身份认知 反转 剧集" data-category="最新热门" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0857.html">
+    <span class="rank-number flex-shrink-0">28</span>
+    <img src="./107.jpg" alt="几近天堂" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">几近天堂</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一家科技公司推出“数字天堂”服务，让逝者意识复活，但买家开始离奇自杀。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="大英雄" data-tags="山寨 草根 侠义 扮猪吃虎 反转 网络电影" data-category="科幻奇幻" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1160.html">
+    <span class="rank-number flex-shrink-0">29</span>
+    <img src="./110.jpg" alt="大英雄" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">大英雄</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">桃花山最怂的山贼“阿废”，为了救回被掳走的女神，被迫冒充传说中的大英雄，结果把自己活成了真的传奇。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="神秘博士第一季" data-tags="时间旅行 重启 多元宇宙 高概念 剧集" data-category="悬疑惊悚" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1348.html">
+    <span class="rank-number flex-shrink-0">30</span>
+    <img src="./148.jpg" alt="神秘博士第一季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">神秘博士第一季</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">第15任博士重生在上海弄堂，塔迪斯化为共享单车，第一站却是秦朝长城工地。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="好莱坞结局" data-tags="黑色幽默 电影行业 讽刺 反转 电影" data-category="悬疑惊悚" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1954.html">
+    <span class="rank-number flex-shrink-0">31</span>
+    <img src="./4.jpg" alt="好莱坞结局" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">好莱坞结局</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">过气导演为还债假死骗保，却发现自己的“遗作”意外入围奥斯卡。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="美国心黑道情" data-tags="黑帮遗孀 卧底探员 禁忌之恋 芝加哥黑帮 女性犯罪 电影" data-category="悬疑惊悚" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0671.html">
+    <span class="rank-number flex-shrink-0">32</span>
+    <img src="./71.jpg" alt="美国心黑道情" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">美国心黑道情</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">黑帮老大死后，其遗孀爱上新保镖，不料保镖正是害死丈夫的卧底。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="黑暗侵袭2" data-tags="洞穴怪物 幽闭恐惧 生存狂 电影" data-category="动作喜剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1170.html">
+    <span class="rank-number flex-shrink-0">33</span>
+    <img src="./120.jpg" alt="黑暗侵袭2" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">黑暗侵袭2</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">幸存者莎拉被逼重返洞穴寻找失踪队友，却发现那群嗜血盲怪已经进化出了新的社会结构。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="战火狙杀" data-tags="狙击手 斯大林格勒 双人对决 写实 电影" data-category="欧美电视剧" data-year="2015">
+  <a class="flex gap-4 p-4" href="./movies/movie-1473.html">
+    <span class="rank-number flex-shrink-0">34</span>
+    <img src="./123.jpg" alt="战火狙杀" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">战火狙杀</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2015 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">斯大林格勒废墟中，苏联狙击天才与德国顶尖射击教官展开了一场关乎尊严的生死猫鼠游戏。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="雨夜惊魂" data-tags="香港老港恐 雨夜屠夫 出租车杀人 精神分裂 电影" data-category="欧美电视剧" data-year="1993">
+  <a class="flex gap-4 p-4" href="./movies/movie-1277.html">
+    <span class="rank-number flex-shrink-0">35</span>
+    <img src="./77.jpg" alt="雨夜惊魂" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">雨夜惊魂</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 1993 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">在一个暴雨倾盆的夜晚，一名孕妇坐上了一辆出租车，她不知道司机是一个正在分尸的变态杀手。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="叛爱游戏" data-tags="复仇 替身 豪门 反转 剧集" data-category="动作喜剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1081.html">
+    <span class="rank-number flex-shrink-0">36</span>
+    <img src="./31.jpg" alt="叛爱游戏" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">叛爱游戏</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">为了报复负心汉，富家千金伪装成双胞胎妹妹，嫁给前男友的哥哥，却发现爱上了复仇的棋子。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="三利股份今日涨停" data-tags="股市 草根散户 信息战 黑色幽默 电影" data-category="欧美电影" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1857.html">
+    <span class="rank-number flex-shrink-0">37</span>
+    <img src="./57.jpg" alt="三利股份今日涨停" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">三利股份今日涨停</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个外卖骑手偶然听到上市公司内幕，他用借来的三千块撬动了一个资本迷局。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="倾国倾城" data-tags="替身 宫廷斗争 虐恋 大女主 电视剧" data-category="动作喜剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0689.html">
+    <span class="rank-number flex-shrink-0">38</span>
+    <img src="./89.jpg" alt="倾国倾城" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">倾国倾城</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">青楼花魁被迫入宫顶替病弱公主，她用美貌与智慧搅动朝堂，却发现自己只是权臣的一颗棋子。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="胜利2024" data-tags="卫国战争 胜利日 平行时空 历史修正主义 悬疑 电影" data-category="最新热门" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1875.html">
+    <span class="rank-number flex-shrink-0">39</span>
+    <img src="./75.jpg" alt="胜利2024" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">胜利2024</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">2024年胜利日前夕，一个俄罗斯历史系研究生在档案馆发现一份被删除的录音，显示1945年柏林战役的胜利宣言曾被篡改过。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="画家" data-tags="反转 艺术犯罪 心理博弈 电影" data-category="经典老片" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0707.html">
+    <span class="rank-number flex-shrink-0">40</span>
+    <img src="./107.jpg" alt="画家" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">画家</strong>
+      <span class="block text-sm text-gray-500 mt-2">经典老片 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一位擅长伪造名画的落魄画家，被警方要求伪造一幅失窃名画，以诱捕幕后黑手。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="合理怀疑第二季" data-tags="翻案 陪审团 程序正义 反转 剧集" data-category="欧美电视剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0984.html">
+    <span class="rank-number flex-shrink-0">41</span>
+    <img src="./84.jpg" alt="合理怀疑第二季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">合理怀疑第二季</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">专替死囚翻案的金牌律师洛城分所，接到了一起全员都认为有罪，但证据链存在0.1%瑕疵的案件。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="合伙吧少年" data-tags="互联网 草根逆袭 友情 现实向 电视剧" data-category="悬疑惊悚" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1982.html">
+    <span class="rank-number flex-shrink-0">42</span>
+    <img src="./32.jpg" alt="合伙吧少年" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">合伙吧少年</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">三个大专生白手起家做APP，被资本踢出局后，用最土的方式把公司抢了回来。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="兄弟恰似爱人" data-tags="兄弟 乱伦禁忌 西西里 橄榄园 电影" data-category="欧美电视剧" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-1091.html">
+    <span class="rank-number flex-shrink-0">43</span>
+    <img src="./41.jpg" alt="兄弟恰似爱人" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">兄弟恰似爱人</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一对亲兄弟在父亲去世后独自经营橄榄园，三年来他们从未对彼此说出那个字。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="羊男的迷宫" data-tags="寓言 战后创伤 怪物美学 电影" data-category="动作喜剧" data-year="2026">
+  <a class="flex gap-4 p-4" href="./movies/movie-0806.html">
+    <span class="rank-number flex-shrink-0">44</span>
+    <img src="./56.jpg" alt="羊男的迷宫" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">羊男的迷宫</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2026 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">内战后的西班牙废墟下，一个女孩遇到羊头人身的迷宫守护者，对方要她用三条人命换取回家的路。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="东京暗鸦" data-tags="阴阳师 式神 转世 咒术 东京结界 动画剧集" data-category="欧美电视剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1305.html">
+    <span class="rank-number flex-shrink-0">45</span>
+    <img src="./105.jpg" alt="东京暗鸦" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">东京暗鸦</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">在咒术现代化的东京，吊车尾阴阳师学生意外唤醒了传说中的最强式神，却发现她自称是自己的前世妻子。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="陪着你走" data-tags="导盲犬 失明 陪伴 温情 励志 电影" data-category="欧美电视剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1109.html">
+    <span class="rank-number flex-shrink-0">46</span>
+    <img src="./59.jpg" alt="陪着你走" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">陪着你走</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">性格孤僻的盲人调音师，不得不接收一只退役导盲犬，人狗从相互嫌弃到生死相依。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="丛林杀机" data-tags="丛林 变形怪物 小组追杀 心理恐惧 电影" data-category="科幻奇幻" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0717.html">
+    <span class="rank-number flex-shrink-0">47</span>
+    <img src="./117.jpg" alt="丛林杀机" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">丛林杀机</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">七名背包客进入澳洲原始丛林，一种能完美模仿人类的怪物开始逐个替换他们。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="云水谣" data-tags="两岸 史诗爱情 等待 战争分隔 电影" data-category="悬疑惊悚" data-year="2006">
+  <a class="flex gap-4 p-4" href="./movies/movie-1216.html">
+    <span class="rank-number flex-shrink-0">48</span>
+    <img src="./16.jpg" alt="云水谣" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">云水谣</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2006 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一段跨越半个世纪的爱恋，因战争而分离，因一封无法寄出的信而成为永恒。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="湖边小屋" data-tags="密室生存 荒野求生 不速之客 心理博弈 电影" data-category="爱情剧情" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0521.html">
+    <span class="rank-number flex-shrink-0">49</span>
+    <img src="./71.jpg" alt="湖边小屋" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">湖边小屋</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">四个朋友周末去湖边小屋度假，第二天醒来发现小屋被密封，窗外的湖面一夜之间变成了无尽的荒漠。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="哈啰，我叫朵莉丝" data-tags="身份错位 都市情感 暖心治愈 电影" data-category="欧美电视剧" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0709.html">
+    <span class="rank-number flex-shrink-0">50</span>
+    <img src="./109.jpg" alt="哈啰，我叫朵莉丝" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">哈啰，我叫朵莉丝</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">朵莉丝每天对电梯镜子说“哈啰”，直到有一天，镜中人开始回答她。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="红辣椒俱乐部" data-tags="老年生活 摇滚 梦想 电影" data-category="科幻奇幻" data-year="2022">
+  <a class="flex gap-4 p-4" href="./movies/movie-1903.html">
+    <span class="rank-number flex-shrink-0">51</span>
+    <img src="./103.jpg" alt="红辣椒俱乐部" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">红辣椒俱乐部</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2022 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">海南一个小镇上，四个六十多岁的老头组了一支朋克乐队，名字叫“红辣椒”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="彼得松和芬杜斯3" data-tags="北欧 老头与猫 冒险 温暖 电影" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0317.html">
+    <span class="rank-number flex-shrink-0">52</span>
+    <img src="./17.jpg" alt="彼得松和芬杜斯3" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">彼得松和芬杜斯3</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">老彼得松和调皮猫芬杜斯为了给母猫找礼物，误入了传说中的“旧物精灵”的地下王国。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="玻璃碎裂" data-tags="密室 声音 感官剥夺 复仇 电影" data-category="最新热门" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1725.html">
+    <span class="rank-number flex-shrink-0">53</span>
+    <img src="./75.jpg" alt="玻璃碎裂" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">玻璃碎裂</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">五个醒来发现自己被关在巨大玻璃密室中的人，发现他们不能触碰任何玻璃，否则整个空间就会爆炸。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="盲人律师" data-tags="视障律师 触觉推理 正义 真实事件改编 电视剧" data-category="经典老片" data-year="2028">
+  <a class="flex gap-4 p-4" href="./movies/movie-1333.html">
+    <span class="rank-number flex-shrink-0">54</span>
+    <img src="./133.jpg" alt="盲人律师" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">盲人律师</strong>
+      <span class="block text-sm text-gray-500 mt-2">经典老片 · 2028 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">他看不见卷宗，却能看见别人证词里的每一处破绽。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="民男的幸福" data-tags="大龄剩男 相亲 佛系 温情 电影" data-category="悬疑惊悚" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0638.html">
+    <span class="rank-number flex-shrink-0">55</span>
+    <img src="./38.jpg" alt="民男的幸福" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">民男的幸福</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">40岁的废柴民男被迫参加“幸福研修班”，班里的剩女们教他追女生，结果全班的恋爱进度条卡在0%。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="吾之欲" data-tags="欲望 复仇 心理扭曲 电影" data-category="科幻奇幻" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-1440.html">
+    <span class="rank-number flex-shrink-0">56</span>
+    <img src="./90.jpg" alt="吾之欲" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">吾之欲</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一名因整容失败而毁容的女人，绑架了那位推崇“极致美貌”的整形医生，并逼迫他把自己整成医生妻子的样子。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="落花飘零" data-tags="花道 母女 继承 独立 电影" data-category="动作喜剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0745.html">
+    <span class="rank-number flex-shrink-0">57</span>
+    <img src="./145.jpg" alt="落花飘零" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">落花飘零</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2025 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">日本花道世家的长女被家族认定“没有才能”，她离开京都去东京当了一名仓库管理员，却在灰尘与纸箱间找到了自己的花。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="忽然遇见你" data-tags="缘分 旅行 清新 治愈 电影" data-category="欧美电影" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0050.html">
+    <span class="rank-number flex-shrink-0">58</span>
+    <img src="./50.jpg" alt="忽然遇见你" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">忽然遇见你</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">两个刚失恋的陌生人拼车去清迈，却在公路旅行中治愈了彼此的旧伤，爱上了全新的自己。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="裸夜" data-tags="豪宅 记忆删除 裸体派对 凶杀 电影" data-category="经典老片" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1743.html">
+    <span class="rank-number flex-shrink-0">59</span>
+    <img src="./93.jpg" alt="裸夜" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">裸夜</strong>
+      <span class="block text-sm text-gray-500 mt-2">经典老片 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一群富人参加“裸体记忆删除派对”，醒来后有人死了，而所有人都不记得那一夜发生了什么。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="流逝" data-tags="时间逆流 婚姻危机 阿尔卑斯山 遗憾 电影" data-category="最新热门" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-1547.html">
+    <span class="rank-number flex-shrink-0">60</span>
+    <img src="./47.jpg" alt="流逝" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">流逝</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一对决定离婚的夫妻在阿尔卑斯山度假时，发现山谷中时间的流速不同，他们分别走向变快与变慢的岔路。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="双姝怨" data-tags="女性 复仇 心理 反转 电影" data-category="动作喜剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0852.html">
+    <span class="rank-number flex-shrink-0">61</span>
+    <img src="./102.jpg" alt="双姝怨" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">双姝怨</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一对曾经亲密无间的姐妹花，因一场蓄意纵火案反目成仇，十年后却发现彼此都是受害者。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="嗨唱转起来第二季" data-tags="即兴 恶搞 跨界 直播 综艺" data-category="爱情剧情" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1129.html">
+    <span class="rank-number flex-shrink-0">62</span>
+    <img src="./79.jpg" alt="嗨唱转起来第二季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">嗨唱转起来第二季</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">节目组被恐怖分子劫持，要求全程直播，嘉宾只能把求救信息藏在歌词里唱出来。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="加州独奏" data-tags="乡村歌手 自我救赎 巡回演唱 电影" data-category="欧美电影" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0157.html">
+    <span class="rank-number flex-shrink-0">63</span>
+    <img src="./7.jpg" alt="加州独奏" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">加州独奏</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个过气的乡村歌手，开着破皮卡横穿加州，只为最后一场无人知晓的独奏演出。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="柔伊" data-tags="AI伴侣 替代 算法 孤独 电影" data-category="科幻奇幻" data-year="2018">
+  <a class="flex gap-4 p-4" href="./movies/movie-1351.html">
+    <span class="rank-number flex-shrink-0">64</span>
+    <img src="./1.jpg" alt="柔伊" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">柔伊</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2018 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">她是最完美的AI情人，却发现男主爱的仍是那个曾经背叛他的真人。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="宿醉3" data-tags="断片 婚礼 黑帮 疯狂一夜 电影" data-category="最新热门" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0460.html">
+    <span class="rank-number flex-shrink-0">65</span>
+    <img src="./10.jpg" alt="宿醉3" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">宿醉3</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">道格第四次结婚，四人组发誓这次绝不喝酒，结果醒来时发现自己成了墨西哥通缉犯。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="终极蜘蛛侠第三季" data-tags="漫威 超英 多元宇宙 青少年向 动画" data-category="科幻奇幻" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0737.html">
+    <span class="rank-number flex-shrink-0">66</span>
+    <img src="./137.jpg" alt="终极蜘蛛侠第三季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">终极蜘蛛侠第三季</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2024 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">蜘蛛侠被抛入一个所有蜘蛛侠都失去了本叔的多元宇宙，他必须教会无数个自己“能力越大责任越大”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="怵目惊魂28天" data-tags="限时追凶 连环杀人 心理博弈 血腥 电影" data-category="欧美电视剧" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0452.html">
+    <span class="rank-number flex-shrink-0">67</span>
+    <img src="./2.jpg" alt="怵目惊魂28天" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">怵目惊魂28天</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2023 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">女法医醒来发现自己被标记为下一个死者，而凶手留下的倒计时只有28天。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="超越边界" data-tags="人道主义 救援 战地 牺牲 跨国恋 电影" data-category="悬疑惊悚" data-year="2003">
+  <a class="flex gap-4 p-4" href="./movies/movie-1949.html">
+    <span class="rank-number flex-shrink-0">68</span>
+    <img src="./149.jpg" alt="超越边界" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">超越边界</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2003 · ⭐ 9.9</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">伦敦名媛放弃锦衣玉食，跟随理想主义医生奔赴全球最危险的战场，只为救赎与爱。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="飞哥大英雄" data-tags="小人物 英雄成长 搞笑 热血 电视剧" data-category="爱情剧情" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0859.html">
+    <span class="rank-number flex-shrink-0">69</span>
+    <img src="./109.jpg" alt="飞哥大英雄" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">飞哥大英雄</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">城中村外卖员飞哥意外救下一个神秘老者，从此被卷入一场维护城市正义的疯狂冒险。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="沙普的鹰饰" data-tags="拿破仑战争 步枪团 热血 荣誉 英国 叛徒 电影" data-category="欧美电影" data-year="1993">
+  <a class="flex gap-4 p-4" href="./movies/movie-0271.html">
+    <span class="rank-number flex-shrink-0">70</span>
+    <img src="./121.jpg" alt="沙普的鹰饰" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">沙普的鹰饰</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 1993 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">滑铁卢战役前，英国传奇步枪手沙普被授予“鹰饰”勋章，随即发现一场针对威灵顿的暗杀计划。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="狐步舞" data-tags="舞蹈 中东战争 家庭悲剧 超现实 电影" data-category="悬疑惊悚" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1465.html">
+    <span class="rank-number flex-shrink-0">71</span>
+    <img src="./115.jpg" alt="狐步舞" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">狐步舞</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一位母亲被告知儿子在战场阵亡，当她开始消化噩耗时，军方却打来电话说：我们搞错了，死的是另一个同名士兵。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="歌唱祖国" data-tags="主旋律 合唱 时代变迁 小人物 热血 电影" data-category="悬疑惊悚" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0770.html">
+    <span class="rank-number flex-shrink-0">72</span>
+    <img src="./20.jpg" alt="歌唱祖国" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">歌唱祖国</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一座北方小城的工人文化宫面临拆除，一群老工人决定用一场跨越五十年的合唱比赛来唤醒城市的记忆。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="男孩．赛车．性丑闻" data-tags="真实事件改编 卡丁车神童 体坛性侵 沉默的共犯 多视角叙事 剧集" data-category="爱情剧情" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0851.html">
+    <span class="rank-number flex-shrink-0">73</span>
+    <img src="./101.jpg" alt="男孩．赛车．性丑闻" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">男孩．赛车．性丑闻</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一位卡丁车神童在14岁时举报了车队教练的性侵，但整个赛车圈选择沉默，十年后，当年的男孩以车手身份重返赛场复仇。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="塑料" data-tags="环境污染 母女关系 代际冲突 社会写实 电影" data-category="欧美电影" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1768.html">
+    <span class="rank-number flex-shrink-0">74</span>
+    <img src="./118.jpg" alt="塑料" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">塑料</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一座废品回收站里的中年妇女，为了给女儿凑艺术学院的学费，决定以身试法贩卖医疗废料。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="日安忧郁" data-tags="文艺 孤独 女性 电影" data-category="最新热门" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0378.html">
+    <span class="rank-number flex-shrink-0">75</span>
+    <img src="./78.jpg" alt="日安忧郁" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">日安忧郁</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2023 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">每天清晨对镜子说“日安”，是她对抗巨大忧郁的微小仪式。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="刀手" data-tags="杀手 师徒 江湖 背叛 冷兵器 电影" data-category="悬疑惊悚" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1572.html">
+    <span class="rank-number flex-shrink-0">76</span>
+    <img src="./72.jpg" alt="刀手" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">刀手</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">社团最冷血的刀手决定金盆洗手，却发现收山仪式是陷阱，而追杀他的人正是他一手教出来的徒弟。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="用爱征服一切" data-tags="都市 治愈 反向套路 欢喜冤家 职场 电影" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-0976.html">
+    <span class="rank-number flex-shrink-0">77</span>
+    <img src="./76.jpg" alt="用爱征服一切" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">用爱征服一切</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">顶级情感咨询师遭遇史上最难客户——她自己那位假装直男的顶头上司。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="今晚的目标" data-tags="直播 绑架 社会讽刺 电影" data-category="最新热门" data-year="2020">
+  <a class="flex gap-4 p-4" href="./movies/movie-1475.html">
+    <span class="rank-number flex-shrink-0">78</span>
+    <img src="./125.jpg" alt="今晚的目标" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">今晚的目标</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2020 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个过气主播为了流量策划了一场假绑架直播，却发现“人质”真的被杀了，而凶手就在观看直播的三十万人中间。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="荣誉团队" data-tags="橄榄球 草根 逆袭 兄弟连 剧集" data-category="爱情剧情" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1974.html">
+    <span class="rank-number flex-shrink-0">79</span>
+    <img src="./24.jpg" alt="荣誉团队" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">荣誉团队</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一群被主流联赛淘汰的球员，在监狱里组建了一支橄榄球队，目标是打败皇家宪兵队。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="捣蛋鬼弗瑞德" data-tags="捣蛋精灵 家庭修复 反套路 电影 / 动画" data-category="动作喜剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0584.html">
+    <span class="rank-number flex-shrink-0">80</span>
+    <img src="./134.jpg" alt="捣蛋鬼弗瑞德" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">捣蛋鬼弗瑞德</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个只想搞破坏的恶作剧精灵，意外被许愿成了一个四岁小女孩的“完美哥哥”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="荒村凶间" data-tags="湘西 赶尸 嫁衣 诅咒 电影" data-category="动作喜剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1582.html">
+    <span class="rank-number flex-shrink-0">81</span>
+    <img src="./82.jpg" alt="荒村凶间" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">荒村凶间</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">湘西摄影师进村拍民俗，发现村里的老人每隔六十年就会穿上同一件嫁衣，在雷雨中消失。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="望向太阳" data-tags="阿尔茨海默症 亲情 乡村 陪伴 电影" data-category="最新热门" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1386.html">
+    <span class="rank-number flex-shrink-0">82</span>
+    <img src="./36.jpg" alt="望向太阳" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">望向太阳</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">患上阿尔茨海默症的母亲坚持要回乡下老屋，因为她记得，那里埋着给女儿准备的嫁妆。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="零号病人" data-tags="瘟疫 突变 僵尸 逃亡 电影" data-category="动作喜剧" data-year="2018">
+  <a class="flex gap-4 p-4" href="./movies/movie-1190.html">
+    <span class="rank-number flex-shrink-0">83</span>
+    <img src="./140.jpg" alt="零号病人" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">零号病人</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2018 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一种通过语言传播的病毒爆发，世界上最后一个能说话的人必须找到“零号病人”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="荡女煞星" data-tags="邪典经典 女杀手 邱淑贞模仿潮 都市奇谭 电影" data-category="欧美电视剧" data-year="1993">
+  <a class="flex gap-4 p-4" href="./movies/movie-0994.html">
+    <span class="rank-number flex-shrink-0">84</span>
+    <img src="./94.jpg" alt="荡女煞星" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">荡女煞星</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 1993 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">夜幕下的都市，一名穿着高跟鞋的神秘女子专杀那些玩弄女性的富商，警方的追捕总是慢她一步。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="腐败" data-tags="政治黑幕 记者调查 体制之恶 剧集" data-category="科幻奇幻" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1992.html">
+    <span class="rank-number flex-shrink-0">85</span>
+    <img src="./42.jpg" alt="腐败" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">腐败</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一位理想主义记者发现，只需几便士，就能买通市政官员修改空气质量数据，而背后的利益链足以让整个伦敦窒息。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="铁血暴警" data-tags="警匪 硬汉 飞车 复仇 暴力 电影" data-category="科幻奇幻" data-year="1995">
+  <a class="flex gap-4 p-4" href="./movies/movie-0406.html">
+    <span class="rank-number flex-shrink-0">86</span>
+    <img src="./106.jpg" alt="铁血暴警" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">铁血暴警</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 1995 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个不守规矩的重案组警探，在搭档被杀后，不顾停职命令，独自闯入毒枭的装甲车基地大开杀戒。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="火星时代 第一季" data-tags="太空探索 殖民 虚构纪录片 科学 灾难 剧集" data-category="欧美电影" data-year="2016">
+  <a class="flex gap-4 p-4" href="./movies/movie-1182.html">
+    <span class="rank-number flex-shrink-0">87</span>
+    <img src="./132.jpg" alt="火星时代 第一季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">火星时代 第一季</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 2016 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">虚实结合的叙事，一边是当今科学家访谈，一边是2033年首批火星殖民者面临生死存亡的震撼戏剧。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="肉搏沙场" data-tags="近身格斗 现代战争 兄弟情 硬核枪战 电影" data-category="悬疑惊悚" data-year="2026">
+  <a class="flex gap-4 p-4" href="./movies/movie-0210.html">
+    <span class="rank-number flex-shrink-0">88</span>
+    <img src="./60.jpg" alt="肉搏沙场" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">肉搏沙场</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2026 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一支海豹突击队被困叙利亚沙漠，他们发现子弹耗尽后，敌人的刀比枪更可怕。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="三不管地带" data-tags="九龙城寨 灰色地带 困兽之斗 电影" data-category="最新热门" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1307.html">
+    <span class="rank-number flex-shrink-0">89</span>
+    <img src="./107.jpg" alt="三不管地带" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">三不管地带</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个警察、一个黑帮和一个记者被困在即将拆迁的九龙城寨最后一夜，三方势力互相猎杀。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="凤临天下" data-tags="女强 宫斗 复仇 逆袭 剧集" data-category="科幻奇幻" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1414.html">
+    <span class="rank-number flex-shrink-0">90</span>
+    <img src="./64.jpg" alt="凤临天下" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">凤临天下</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">亡国公主女扮男装入朝为官，一路爬上权力巅峰，只为向篡位者讨回血债。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="新荡妇卡门" data-tags="女性觉醒 弗拉明戈 现代改编 电影" data-category="欧美电影" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0523.html">
+    <span class="rank-number flex-shrink-0">91</span>
+    <img src="./73.jpg" alt="新荡妇卡门" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">新荡妇卡门</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 2023 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">当代巴塞罗那，一位被贴上“荡妇”标签的女焊工用弗拉明戈夺回身体定义权。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="爱情领域2" data-tags="复合 时间重置 建筑师 职场女性 二次机会 剧集" data-category="科幻奇幻" data-year="2021">
+  <a class="flex gap-4 p-4" href="./movies/movie-0131.html">
+    <span class="rank-number flex-shrink-0">92</span>
+    <img src="./131.jpg" alt="爱情领域2" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">爱情领域2</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2021 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">分手三年后，每当下雨，她就会回到决定分手的那天下午，反复经历那场争吵。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="读万卷书行万里路" data-tags="读书 旅行 文化 历史遗迹 知识分子 纪录片剧集" data-category="动作喜剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1602.html">
+    <span class="rank-number flex-shrink-0">93</span>
+    <img src="./102.jpg" alt="读万卷书行万里路" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">读万卷书行万里路</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">六位作家与历史学者沿着中国古诗词的地理脉络，重走千年文化之路。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="明星伙伴 第四季" data-tags="好莱坞 娱乐圈 兄弟情 客串明星 剧集" data-category="爱情剧情" data-year="2007">
+  <a class="flex gap-4 p-4" href="./movies/movie-1210.html">
+    <span class="rank-number flex-shrink-0">94</span>
+    <img src="./10.jpg" alt="明星伙伴 第四季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">明星伙伴 第四季</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2007 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">文斯·蔡斯转型导演拍摄处女作，整个兄弟帮在好莱坞的混乱升级中再次集结。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="世外烟花" data-tags="夏日 离别 新海诚风格 短篇动画 电影" data-category="欧美电视剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0238.html">
+    <span class="rank-number flex-shrink-0">95</span>
+    <img src="./88.jpg" alt="世外烟花" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">世外烟花</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">在一个每年只能放一次烟花的闭塞小镇，一个男孩遇见了一个能停住时间的女孩，她活在过去最后一个夏夜。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="极限挑战 第九季" data-tags="户外竞技 搞笑 男人帮 社会实验 综艺" data-category="最新热门" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-1014.html">
+    <span class="rank-number flex-shrink-0">96</span>
+    <img src="./114.jpg" alt="极限挑战 第九季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">极限挑战 第九季</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2023 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">六位“老油条”与飞行嘉宾，在一场场荒谬的规则中，挑战智商、体能与极限脸皮。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="穿越爱情线" data-tags="时间循环 悬疑爱恋 校园 剧集" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1923.html">
+    <span class="rank-number flex-shrink-0">97</span>
+    <img src="./123.jpg" alt="穿越爱情线" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">穿越爱情线</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">物理系女生发现她可以穿越到过去的关键节点改写历史，但每次穿越都会让现任男友消失一个记忆。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="境界线上的地平线第一季" data-tags="轻小说改 中世纪 机甲 超长篇 动画" data-category="科幻奇幻" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1309.html">
+    <span class="rank-number flex-shrink-0">98</span>
+    <img src="./109.jpg" alt="境界线上的地平线第一季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">境界线上的地平线第一季</strong>
+      <span class="block text-sm text-gray-500 mt-2">科幻奇幻 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">在重奏世界崩坏的末日，所有国家被转移到了漂浮的舰岛上，为了争夺“地平线”上的历史书而战。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="愚人的国度" data-tags="高智商犯罪 孤岛 人性实验 电影" data-category="动作喜剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0943.html">
+    <span class="rank-number flex-shrink-0">99</span>
+    <img src="./43.jpg" alt="愚人的国度" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">愚人的国度</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一群互不相识的“愚人”被困孤岛，发现整个国度只是一场残酷的社会实验。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="妙冤家" data-tags="欢喜冤家 职场 商战 互怼 甜辣 剧集" data-category="爱情剧情" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1941.html">
+    <span class="rank-number flex-shrink-0">100</span>
+    <img src="./141.jpg" alt="妙冤家" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">妙冤家</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">收购与被收购公司的两位CEO被迫共享一间办公室，在疯狂互坑中笑料百出。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="碎梦人生" data-tags="梦境 解构 存在主义 非线性 电影" data-category="动作喜剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1246.html">
+    <span class="rank-number flex-shrink-0">101</span>
+    <img src="./46.jpg" alt="碎梦人生" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">碎梦人生</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个失眠的中年人发现自己的梦正在被一伙神秘人当作剧本出售，而他的生活就是一场持续了四十年的直播。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="春情尤物" data-tags="艺术圈 欲望与毁灭 忘年恋 电影" data-category="最新热门" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0658.html">
+    <span class="rank-number flex-shrink-0">102</span>
+    <img src="./58.jpg" alt="春情尤物" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">春情尤物</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一位垂死的艺术大师将年轻情人视为最后的缪斯，却不知她是他宿敌派来摧毁他的“武器”。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="脱离" data-tags="数字化意识 逃离 网络监狱 赛博朋克 剧集" data-category="欧美电视剧" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-1460.html">
+    <span class="rank-number flex-shrink-0">103</span>
+    <img src="./110.jpg" alt="脱离" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">脱离</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电视剧 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">三十万人的意识被上传到一个虚假的“天堂服务器”，一名程序员的意识偶然发现自己能“向下”脱离。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="勇气（苏联电影）" data-tags="二战 苏联红军 女性战士 诗意现实主义 电影" data-category="爱情剧情" data-year="1981">
+  <a class="flex gap-4 p-4" href="./movies/movie-0846.html">
+    <span class="rank-number flex-shrink-0">104</span>
+    <img src="./96.jpg" alt="勇气（苏联电影）" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">勇气（苏联电影）</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 1981 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">二战最惨烈的战场上，一群刚毕业的女高射炮手，用血肉之躯对抗德国坦克集群，书写了生命与爱情的挽歌。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="毒妇与恶汉" data-tags="中世纪 黑魔法 全员恶人 高能反转 电影" data-category="经典老片" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1951.html">
+    <span class="rank-number flex-shrink-0">105</span>
+    <img src="./1.jpg" alt="毒妇与恶汉" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">毒妇与恶汉</strong>
+      <span class="block text-sm text-gray-500 mt-2">经典老片 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">当一个被指控为毒妇的女巫，遇上一个以折磨女巫为乐的恶汉法官，他们决定联手屠城。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="小小绑匪" data-tags="熊孩子 乌龙绑架 反向勒索 童趣 电影" data-category="悬疑惊悚" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-1862.html">
+    <span class="rank-number flex-shrink-0">106</span>
+    <img src="./62.jpg" alt="小小绑匪" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">小小绑匪</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2023 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">三个小学生想绑架校霸勒索零花钱，结果不小心绑架了通缉榜上的悍匪。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="美丽女孩" data-tags="女性成长 校园 自信 整形 自我认同 剧集" data-category="爱情剧情" data-year="2022">
+  <a class="flex gap-4 p-4" href="./movies/movie-1470.html">
+    <span class="rank-number flex-shrink-0">107</span>
+    <img src="./120.jpg" alt="美丽女孩" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">美丽女孩</strong>
+      <span class="block text-sm text-gray-500 mt-2">爱情剧情 · 2022 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一个觉得自己“不够美”的高中女生，报名了一档改变外貌的真人秀。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="瞠目结舌" data-tags="直播 密室 人性实验 反转 视觉错觉 电影" data-category="悬疑惊悚" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1274.html">
+    <span class="rank-number flex-shrink-0">108</span>
+    <img src="./74.jpg" alt="瞠目结舌" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">瞠目结舌</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">八人参加一场“完美密室”直播秀，却发现观众看到的和他们亲身经历的完全不同。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="舌尖上的中国第二季" data-tags="食物 乡愁 劳作 人情 纪录片" data-category="最新热门" data-year="2014">
+  <a class="flex gap-4 p-4" href="./movies/movie-1355.html">
+    <span class="rank-number flex-shrink-0">109</span>
+    <img src="./5.jpg" alt="舌尖上的中国第二季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">舌尖上的中国第二季</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2014 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">这一季不再只说“好吃”，而是说每一口食物背后，那些正在消失的人和他们的活法。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="智勇急转弯" data-tags="逃亡 乌龙 撞车 证人保护 笨贼 电影" data-category="动作喜剧" data-year="1991">
+  <a class="flex gap-4 p-4" href="./movies/movie-0383.html">
+    <span class="rank-number flex-shrink-0">110</span>
+    <img src="./83.jpg" alt="智勇急转弯" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">智勇急转弯</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 1991 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一对倒霉蛋目睹黑帮杀人后逃跑，慌不择路撞上一位老太太的车，老太太竟比黑帮还狠。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="丑人儿" data-tags="反乌托邦 颜值焦虑 手术整容 基因改造 少年反抗 剧集" data-category="悬疑惊悚" data-year="2026">
+  <a class="flex gap-4 p-4" href="./movies/movie-1577.html">
+    <span class="rank-number flex-shrink-0">111</span>
+    <img src="./77.jpg" alt="丑人儿" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">丑人儿</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2026 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">在这个世界，16岁必须接受整容手术变成“美人”，但主角却发现美貌背后是脑控阴谋。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="人骨招魂" data-tags="降头 人骨 诅咒 民俗 氛围恐怖 电影" data-category="动作喜剧" data-year="2021">
+  <a class="flex gap-4 p-4" href="./movies/movie-0686.html">
+    <span class="rank-number flex-shrink-0">112</span>
+    <img src="./86.jpg" alt="人骨招魂" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">人骨招魂</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2021 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">她捡回一块漂亮的白骨当饰品，当晚，白骨开始对着她说话。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="信号30" data-tags="对讲机穿越 限定30分钟 蝴蝶效应 双时间线 刑警搭档 剧集" data-category="欧美电影" data-year="2024">
+  <a class="flex gap-4 p-4" href="./movies/movie-0490.html">
+    <span class="rank-number flex-shrink-0">113</span>
+    <img src="./40.jpg" alt="信号30" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">信号30</strong>
+      <span class="block text-sm text-gray-500 mt-2">欧美电影 · 2024 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一通来自30年前的警方求救信号，让现代女警必须在30分钟内改写一桩未破连环杀人案。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="激情蔷薇" data-tags="红磨坊 舞女 遗产 一战 电影" data-category="动作喜剧" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-0098.html">
+    <span class="rank-number flex-shrink-0">114</span>
+    <img src="./98.jpg" alt="激情蔷薇" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">激情蔷薇</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2023 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">1920年红磨坊的台柱意外身亡，她从未谋面的女儿带着同样的胎记前来继承舞衣。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="大地将变成红色" data-tags="末日 气候变化 科幻寓言 生态 电影" data-category="动作喜剧" data-year="2025">
+  <a class="flex gap-4 p-4" href="./movies/movie-1373.html">
+    <span class="rank-number flex-shrink-0">115</span>
+    <img src="./23.jpg" alt="大地将变成红色" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">大地将变成红色</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2025 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">在一场导致植物全部枯死的灾难后，幸存的人类开始用彼此的血液浇灌最后一颗种子。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="宝莲灯2005" data-tags="劈山救母 神话改编 童年经典 沉香 剧集" data-category="动作喜剧" data-year="2005">
+  <a class="flex gap-4 p-4" href="./movies/movie-0197.html">
+    <span class="rank-number flex-shrink-0">116</span>
+    <img src="./47.jpg" alt="宝莲灯2005" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">宝莲灯2005</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 2005 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">沉香踏上漫漫寻母路，却发现劈开莲花后，等待他的是天庭更大的阴谋。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="狂蟒惊魂" data-tags="巨蟒 雨林 生存 血腥 反转 电影" data-category="经典老片" data-year="2005">
+  <a class="flex gap-4 p-4" href="./movies/movie-1694.html">
+    <span class="rank-number flex-shrink-0">117</span>
+    <img src="./44.jpg" alt="狂蟒惊魂" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">狂蟒惊魂</strong>
+      <span class="block text-sm text-gray-500 mt-2">经典老片 · 2005 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">新婚旅行变成血腥噩梦，一行人发现巨蟒背后竟藏着二战遗毒。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="春风劲草" data-tags="留守儿童 乡村教师 励志 教育 现实题材 电影" data-category="悬疑惊悚" data-year="2023">
+  <a class="flex gap-4 p-4" href="./movies/movie-1302.html">
+    <span class="rank-number flex-shrink-0">118</span>
+    <img src="./102.jpg" alt="春风劲草" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">春风劲草</strong>
+      <span class="block text-sm text-gray-500 mt-2">悬疑惊悚 · 2023 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">一位失去双腿的乡村教师，教会了全村的留守儿童踢足球，目标是打败城里来的专业青训队。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="汪汪队立大功第二季" data-tags="狗狗 救援 团队合作 低幼 剧集 / 动画" data-category="最新热门" data-year="2016">
+  <a class="flex gap-4 p-4" href="./movies/movie-1579.html">
+    <span class="rank-number flex-shrink-0">119</span>
+    <img src="./79.jpg" alt="汪汪队立大功第二季" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">汪汪队立大功第二季</strong>
+      <span class="block text-sm text-gray-500 mt-2">最新热门 · 2016 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">莱德队长带领六只狗狗继续拯救冒险湾，这一次他们要在海底、雪山和太空中执行全新任务。</span>
+    </span>
+  </a>
+</article><article class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group" data-card data-title="周五夜疯狂" data-tags="迪斯科 青春 派对 打工仔 电影" data-category="动作喜剧" data-year="1978">
+  <a class="flex gap-4 p-4" href="./movies/movie-0607.html">
+    <span class="rank-number flex-shrink-0">120</span>
+    <img src="./7.jpg" alt="周五夜疯狂" loading="lazy" class="w-24 h-32 object-cover rounded">
+    <span class="flex-1 min-w-0">
+      <strong class="block text-lg font-semibold text-gray-800 group-hover:text-red-700 line-clamp-1">周五夜疯狂</strong>
+      <span class="block text-sm text-gray-500 mt-2">动作喜剧 · 1978 · ⭐ 9.8</span>
+      <span class="block text-sm text-gray-600 mt-3 line-clamp-2">纽约最大的迪斯科舞厅里，一个只想打工还债的清洁工，被迫在舞王挑战赛上顶替出场。</span>
+    </span>
+  </a>
+</article></section>
+</div>
+</main>
+<footer class="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-300 mt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center gap-2 mb-4">
+          <span class="w-10 h-10 bg-gradient-to-br from-red-600 to-rose-600 rounded-lg flex items-center justify-center text-white text-xl">▶</span>
+          <div>
+            <strong class="text-xl font-bold text-white">欧美影视</strong>
+            <p class="text-sm text-gray-400">免费高清在线观看</p>
+          </div>
+        </div>
+        <p class="text-sm text-gray-400 leading-relaxed max-w-md">免费欧美在线视频：满足你的观影需求，从经典老片到最新热门一网打尽！提供最新最热的欧美电影、电视剧、综艺、动漫在线观看，高清画质，完全免费，支持手机和电脑观看</p>
+      </div>
+      <div>
+        <h2 class="text-white font-semibold mb-4">影视分类</h2>
+        <ul class="space-y-2"><li><a class="text-sm hover:text-red-400 transition-colors" href="./category-oumei-movie.html">欧美电影</a></li><li><a class="text-sm hover:text-red-400 transition-colors" href="./category-oumei-tv.html">欧美电视剧</a></li><li><a class="text-sm hover:text-red-400 transition-colors" href="./category-latest-hot.html">最新热门</a></li><li><a class="text-sm hover:text-red-400 transition-colors" href="./category-classic.html">经典老片</a></li><li><a class="text-sm hover:text-red-400 transition-colors" href="./category-suspense-thriller.html">悬疑惊悚</a></li><li><a class="text-sm hover:text-red-400 transition-colors" href="./category-romance-drama.html">爱情剧情</a></li></ul>
+      </div>
+      <div>
+        <h2 class="text-white font-semibold mb-4">快捷入口</h2>
+        <ul class="space-y-2">
+          <li><a class="text-sm hover:text-red-400 transition-colors" href="./categories.html">全部分类</a></li>
+          <li><a class="text-sm hover:text-red-400 transition-colors" href="./ranking.html">热门排行</a></li>
+          <li><a class="text-sm hover:text-red-400 transition-colors" href="./search.html">影片搜索</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-gray-400 text-center md:text-left">© 2026 欧美影视. 保留所有权利.</p>
+      <p class="flex items-center gap-1 text-sm text-gray-400"><span>精选影视</span><span class="text-red-500">★</span><span>品质观影</span></p>
+    </div>
+  </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
